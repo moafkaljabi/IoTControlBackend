@@ -1,11 +1,11 @@
 package com.astraspecs.IoTControlBackend.repository;
 
-import com.astraspecs.IoTControlBackend.user.User;
+import com.astraspecs.IoTControlBackend.device.Device;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository  extends JpaRepository<User,Long> {
+public interface DeviceRepository extends JpaRepository<Device, Long> {
 
-    User findByEmail(String email);
+    Device findByDeviceName(String deviceName);
 }
