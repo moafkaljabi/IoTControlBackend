@@ -2,7 +2,6 @@ package com.astraspecs.IoTControlBackend.controller;
 
 import com.astraspecs.IoTControlBackend.device.Device;
 import com.astraspecs.IoTControlBackend.service.DeviceService;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
